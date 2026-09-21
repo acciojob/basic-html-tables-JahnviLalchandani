@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+table{
+	width:100%;
+	border-collapse:collapse;
+	overflow:hidden;
+	border-radius:10px;
+}
+th{
+	text-transform:uppercase;
+	background:#2F4F4F;
+	color:white;
+}
+tr{
+	text-align:center;
+}
+tr:nth-child(even){
+	background:#8FBC8F;
+}
